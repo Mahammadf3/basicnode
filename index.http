@@ -1,0 +1,31 @@
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "id":10,
+  
+    "name":"dhoni",
+ 
+    "password":"5240"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "name":"dhoni",
+    "password":"5240"
+}
+
+###
+GET http://localhost:3000/getData
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZGhvbmkiLCJpYXQiOjE2OTI4NTQ0MDF9.ROhp_C89nGOM7D9fb7pcCNX-iqIhXbTuZg8u5yS7g0s
+
+###
+
+GET http://localhost:3000/data/1
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiZGhvbmkiLCJpYXQiOjE2OTI4NTQ0MDF9.ROhp_C89nGOM7D9fb7pcCNX-iqIhXbTuZg8u5yS7g0s
+
+
